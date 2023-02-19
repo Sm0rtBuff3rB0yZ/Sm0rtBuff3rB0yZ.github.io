@@ -1,0 +1,44 @@
+/* background black */
+body {
+    background-color: black;
+}
+
+/* make the container be in the middle of the page */
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p, li {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* .a_1 { */
+    /* margin-right: 2em;
+}
+
+.a_2 {
+    margin-left: 5em;
+} */
+
+/* make the svg 50% bigger */
+#logo {
+    width: 40%;
+}
+
+#sign {
+    margin-top: 3em;
+    width: 35%;
+}
