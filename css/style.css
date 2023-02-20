@@ -1,12 +1,10 @@
-/* background black */
 body {
     background-color: black;
 }
 
-/* make the container be in the middle of the page */
 .container {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -20,25 +18,17 @@ a {
     font-family: 'Courier New', Courier, monospace;
 }
 
-p, li {
+p,
+li {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* .a_1 { */
-    /* margin-right: 2em;
-}
-
-.a_2 {
-    margin-left: 5em;
-} */
-
-/* make the svg 50% bigger */
 #logo {
     width: 40%;
+    margin-bottom: 1em;
 }
 
 #sign {
-    margin-top: 3em;
-    width: 35%;
+    width: 40%;
 }
