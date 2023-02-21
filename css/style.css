@@ -7,10 +7,29 @@ body {
     font-size: 1.5em;
 }
 
+.box {
+    align-self: center;
+}
+
+/* class for code highlighting */
 .hljs {
-    width: 750px;
+    width: 42.3em;
     background: rgba(107, 107, 107, 0.185) !important;
     color: #ffffff !important;
+    display: flex;
+    align-self: center;
+}
+
+.hljs-type {
+    color: rgb(39, 61, 185) !important;
+}
+
+.hljs-string {
+    color:rgb(12, 82, 90) !important;
+}
+
+.hljs-built_in {
+    color: #580b67 !important;
 }
 
 .container {
