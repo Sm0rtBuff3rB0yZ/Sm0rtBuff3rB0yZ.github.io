@@ -2,9 +2,22 @@ body {
     background-color: black;
 }
 
+em {
+    color: tomato;
+}
+
 .code {
     color: rgb(255, 255, 255);
     font-size: 1.5em;
+}
+
+.bob_box {
+    background-color: rgba(107, 107, 107, 0.185);
+    font-size: 1em;
+    padding: 0 .5em 0 .5em;
+    border-radius: 10px;
+    width: 31em;
+    align-self: center;
 }
 
 .box {
@@ -25,7 +38,7 @@ body {
 }
 
 .hljs-string {
-    color:rgb(12, 82, 90) !important;
+    color: rgb(12, 82, 90) !important;
 }
 
 .hljs-built_in {
@@ -156,19 +169,22 @@ li {
     }
 }
 
-/* @media (max-width: 1024px) {
-    #logo {
-        width: 150%;
-    }
-} */
-
 @media (max-width: 430px) {
     #logo {
-        width: 150%;
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
     }
 
     .container a {
         line-height: 3em;
+    }
+
+    #logo {
+        max-width: 100%;
     }
 
     p {
