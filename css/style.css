@@ -2,6 +2,18 @@ body {
     background-color: black;
 }
 
+.code {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+.box {
+    margin:auto;
+    width: 750px;
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgba(107, 107, 107, 0.185);
+}
+
 .container {
     position: absolute;
     top: 48%;
