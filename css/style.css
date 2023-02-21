@@ -13,6 +13,10 @@ body {
     justify-content: center;
 }
 
+.container a {
+    margin: 0 0.5em;
+}
+
 a {
     color: tomato;
     font-family: 'Courier New', Courier, monospace;
@@ -118,5 +122,26 @@ li {
 
     100% {
         filter: hue-rotate(1800deg) saturate(100%);
+    }
+}
+
+/* @media (max-width: 1024px) {
+    #logo {
+        width: 150%;
+    }
+} */
+
+@media (max-width: 430px) {
+    #logo {
+        width: 150%;
+    }
+
+    .container a {
+        line-height: 3em;
+    }
+
+    p {
+        font-size: 1.5em;
+        text-align: center;
     }
 }
