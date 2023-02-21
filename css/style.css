@@ -179,6 +179,12 @@ li {
         height: auto;
     }
 
+    .bob_box {
+        color: white;
+        width: 100%;
+        font-size: .68em;
+    }
+
     .container a {
         line-height: 3em;
     }
@@ -188,7 +194,7 @@ li {
     }
 
     p {
-        font-size: 1.5em;
+        font-size: .8em;
         text-align: center;
     }
 }
