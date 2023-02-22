@@ -175,6 +175,11 @@ li {
         height: auto;
     }
 
+    .hljs {
+        font-size: 0.5em;
+        /* width: 100%; */
+    }
+
     .bob_box {
         color: white;
         width: 100%;
