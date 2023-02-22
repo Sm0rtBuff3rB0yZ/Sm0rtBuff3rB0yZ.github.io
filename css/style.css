@@ -9,6 +9,7 @@ em {
 .bob_box {
     background-color: rgba(107, 107, 107, 0.185);
     font-size: 1em;
+    color: #ffffff;
     padding: 0 .5em 0 .5em;
     border-radius: 10px;
     display: block;
@@ -25,6 +26,7 @@ em {
     width: 42.3em;
     background: rgba(107, 107, 107, 0.185) !important;
     color: #ffffff !important;
+    border-radius: 10px;
     display: flex;
     align-self: center;
 }
