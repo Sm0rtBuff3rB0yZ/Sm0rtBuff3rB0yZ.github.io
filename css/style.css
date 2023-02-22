@@ -21,7 +21,7 @@ em {
 
 /* class for code highlighting */
 .hljs {
-    font-size: 1.5em;
+    font-size: 1em;
     width: 42.3em;
     background: rgba(107, 107, 107, 0.185) !important;
     color: #ffffff !important;
