@@ -6,6 +6,12 @@ em {
     color: tomato;
 }
 
+.emb {
+    color: rgb(92, 92, 92);
+    font-size: 1em;
+    font-style: italic;
+}
+
 .bob_box {
     background-color: rgba(107, 107, 107, 0.185);
     font-size: 1em;
