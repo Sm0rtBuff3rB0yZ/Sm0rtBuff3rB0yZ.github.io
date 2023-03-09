@@ -5,7 +5,7 @@ html, body {
 
 body {
     background-color: black;
-    cursor: url("../images/SBB_cursor.png"), auto;
+    /* cursor: url("../images/SBB_cursor.png"), auto; */
 }
 
 em {
